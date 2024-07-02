@@ -61,6 +61,21 @@ hr{
     display: flex;
 }
 
+.hr-1{
+    width: 150px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin: auto;
+    margin-top: -32px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position : center;
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+}
+
 .main {
     width: 100%;
     min-height: 100vh;
