@@ -21,14 +21,14 @@ header {
 
 .logo{
     text-decoration: none;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2.1em;
 }
 
 .navigation a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.15em;
     font-weight: 500;
@@ -38,7 +38,7 @@ header {
 }
 
 .navigation a:hover{
-    color: rgba(255, 255, 255, 0.863);
+    color: rgba(120, 118, 118, 0.729);
     font-size: larger;
 }
 
@@ -145,7 +145,7 @@ hr{
 }
 
 .info-section p {
-    font-size: 1.4em;
+    font-size: 1.6em;
     cursor: default;
     text-align: center;
     display: flex;
@@ -163,6 +163,16 @@ hr{
     display: flex;
     justify-content: center;
     color: rgb(9, 0, 70);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    cursor: default;
+}
+
+.title-1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -209,6 +219,11 @@ hr{
 
 .info p {
     color: black;
+}
+
+.cards a{
+    text-decoration: none;
+    cursor:auto;
 }
 
 
@@ -321,7 +336,7 @@ hr{
 }
 
 .footer-title span {
-  color: black;  
+  color: rgb(255, 255, 255);  
 }
 
 .footer .social-icons a{
